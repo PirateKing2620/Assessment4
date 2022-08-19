@@ -12,8 +12,8 @@ const { getCompliment, getFortune, touchRubberDucky, sayHelloUser, pirateQuote }
 app.get("/api/compliment", getCompliment);
 app.get("/api/fortune", getFortune);
 app.get("/api/rubberDucky", touchRubberDucky);
-app.get("/api/userBtn", sayHelloUser); 
-app.get("/api/pirateQuote", pirateQuote); 
+app.get("/api/user", sayHelloUser); 
+app.get("/api/quote", pirateQuote); 
 
 app.listen(4000, () => console.log("Server running on 4000"));
 
